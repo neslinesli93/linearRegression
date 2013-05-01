@@ -7,7 +7,7 @@ from gradientDescentOfCostFunction import gradientDescent, costFunction
 # Main window setup
 pygame.init()
 DISPLAYSURF = pygame.display.set_mode((MAIN_WIDTH, MAIN_HEIGHT), 0, 0)
-pygame.display.set_caption("Test")
+pygame.display.set_caption("Linear Regression")
 
 
 # Draw phase
@@ -133,9 +133,9 @@ pygame.draw.line(DISPLAYSURF, RED, start, end, AXE_WIDTH)
 ### End of Plot my final line
 
 if 0:
-    x = input("Quanti metri quadri e' la tua casa? ")
+    x = input("How many squared metres is your house? ")
     y = Theta0 + (int(x)*Theta1)
-    print("La casa costa",round(y),"mila euro")
+    print("Your house costs",round(y),"thousands €")
 
 
 while True:

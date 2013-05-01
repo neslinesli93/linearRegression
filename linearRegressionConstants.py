@@ -22,8 +22,8 @@ TOP_LEFT_BORDER = (MAIN_BORDER, MAIN_BORDER)
 # WRITINGS
 FONT_SIZE = 9
 
-X_AXE_WRITE = 'Dim. casa (m^2)'
-Y_AXE_WRITE = 'Prezzo casa (migliaia €)'
+X_AXE_WRITE = 'House size (m^2)'
+Y_AXE_WRITE = 'House price (thousands €)'
 
 X_AXE_WRITE_POSITION = (450, 360)
 Y_AXE_WRITE_POSITION = (60, 10)
